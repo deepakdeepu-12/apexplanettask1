@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ApexPlanet — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">ApexPlanet</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Hello — I'm Deepa</h2>
+        <p>Front-end developer building clean, accessible websites.</p>
+        <a class="btn" href="#projects">View Work</a>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About</h3>
+      <p>Experienced with HTML, CSS, JavaScript. Familiar with PHP & MySQL basics.</p>
+      <ul class="skills">
+        <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h3>Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Personal Portfolio</h4>
+          <p>Responsive site built with plain HTML/CSS/JS.</p>
+          <a href="#" class="small-btn">Demo</a>
+        </article>
+        <article class="card">
+          <h4>PHP MySQL CRUD</h4>
+          <p>Simple CRUD app (sample) — connect with MySQL.</p>
+          <a href="#" class="small-btn">Repo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <form id="contactForm">
+        <label>Name<input type="text" id="name" required></label>
+        <label>Email<input type="email" id="email" required></label>
+        <label>Message<textarea id="message" rows="5" required></textarea></label>
+        <button type="submit" class="btn">Send</button>
+        <p id="formMsg" class="muted" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 ApexPlanet. Built by Deepa.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
